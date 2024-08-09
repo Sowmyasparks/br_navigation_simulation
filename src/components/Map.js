@@ -4,9 +4,9 @@ import "./style.css";
 const Map = ({ brPosition, brDirection }) => {
   const grid = () => {
     const currRow = [];
-    for (let x = 0; x < 4; x++) {
+    for (let x = 0; x < 5; x++) {
       const cells = [];
-      for (let col = 0; col < 4; col++) {
+      for (let col = 0; col < 5; col++) {
         const brPresent = brPosition.x === col && brPosition.y === x;
         cells.push(
           <div key={`${x}-${col}`} className="cellLook">

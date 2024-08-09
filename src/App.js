@@ -14,10 +14,10 @@ function App() {
         y = Math.max(y - 1, 0);
         break;
       case "east":
-        x = Math.min(x + 1, 3);
+        x = Math.min(x + 1, 4);
         break;
       case "south":
-        y = Math.min(y + 1, 3);
+        y = Math.min(y + 1, 4);
         break;
       case "west":
         x = Math.max(x - 1, 0);
